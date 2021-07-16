@@ -1,0 +1,61 @@
+{
+  "name": "fitness_challenge_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.25",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.9.4",
+    "firebase": "^5.11.1",
+    "firebaseui": "^3.6.1",
+    "jest-cli": "^24.7.1",
+    "jest-junit": "^6.3.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^1.19.4",
+    "pg": "^7.18.2",
+    "rc-progress": "^2.3.0",
+    "react": "^16.8.4",
+    "react-bootstrap": "^1.6.1",
+    "react-chartjs-2": "^2.11.2",
+    "react-dom": "^16.8.4",
+    "react-firebase": "^2.2.8",
+    "react-firebase-file-uploader": "^2.4.4",
+    "react-firebaseui": "^3.1.2",
+    "react-responsive-modal": "^3.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.8",
+    "reactstrap": "^7.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --colors",
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --env=jsdom --coverage --collectCoverageFrom='src/!(tests)**/*.{js,jsx}'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/polyfill": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest": "^23.6.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

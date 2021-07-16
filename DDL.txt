@@ -1,0 +1,45 @@
+create database fitness;
+\c fitness;
+
+create table a_user(
+	uid varchar(255) primary key,
+	username varchar(100) not null,
+	f_name varchar(100) not null,
+	l_name varchar(100) not null,
+	totalPoints float,
+	gender varchar(255),
+	"createdAt" Timestamp
+);
+
+create table a_group(
+	gid serial primary key,
+	g_name varchar(255) not null,
+	groupdist float,
+	"createdAt" Timestamp
+);
+
+
+create table a_friends(
+	fid serial primary key,
+	req_uid varchar(255) references a_user(UID),
+	res_uid varchar(255) references a_user(UID),
+	status varchar(1) not null,
+	"createdAt" Timestamp
+);
+
+
+create table a_user_activity(
+	aid serial primary key,
+	uid varchar(255) references a_user(UID),
+	type varchar(255),
+	duration float,
+	points float,
+	"updatedAt" Timestamp
+);
+
+create table a_user_group(
+	ugid serial primary key,
+	uid varchar(255) references a_user(UID),
+	gid integer references a_group(GID),
+	"createdAt" Timestamp
+);

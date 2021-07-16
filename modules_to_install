@@ -1,0 +1,17 @@
+#! /bin/bash
+echo "Installing Dependencies"
+sudo npm install
+sudo npm install firebase
+sudo npm install firebaseui
+sudo npm install react-firebaseui
+sudo npm install react-bootstrap
+sudo npm install react-responsive-modal
+sudo npm install chart.js
+sudo npm install react-chartjs-2
+sudo npm install react-router-dom
+sudo npm install react-firebase-file-uploader
+sudo npm install axios
+sudo npm install pg
+sudo npm install nodemon
+sudo npm install react-scripts
+

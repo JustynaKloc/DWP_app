@@ -1,0 +1,50 @@
+.displayInfo {
+  padding-top: 40px;
+}
+
+.mainDisplay {
+  padding-top: 150px;
+}
+
+.contentDiv {
+  min-height: 300px;
+  min-width: 600px;
+  transform: translateX(-30px);
+}
+
+.healthInfo {
+  padding-top: 30px;
+}
+
+.profPic {
+  transform: translateX(7px);
+}
+
+.name {
+  padding-top: 20px;
+}
+.editButton {
+  padding-top: 20px;
+}
+
+.Gender {
+  text-align: left;
+}
+
+.formPadding {
+  padding-top: 5px;
+}
+
+.formPaddingOne {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.formPaddingTwo {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.formPaddingThree {
+  padding-top: 10px;
+}
